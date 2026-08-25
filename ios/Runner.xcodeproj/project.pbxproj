@@ -1,0 +1,1251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
+		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
+		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
+		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
+		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
+		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+		DA06596F2B3B0F5400289CB0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA06596E2B3B0F5400289CB0 /* GoogleService-Info.plist */; };
+		DA0ABD7B2D6E369700F45080 /* CallAcceptedWhisperEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0ABD7A2D6E369700F45080 /* CallAcceptedWhisperEvent.swift */; };
+		DA23C7912C60FB6B00BD35E3 /* BackgroundTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA23C7902C60FB6B00BD35E3 /* BackgroundTaskManager.swift */; };
+		DA23C7932C60FE7000BD35E3 /* BackgroundTasks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA23C7922C60FE7000BD35E3 /* BackgroundTasks.framework */; };
+		DA23C7952C61175900BD35E3 /* ClockInSessionStopper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA23C7942C61175900BD35E3 /* ClockInSessionStopper.swift */; };
+		DA34AABF2CE4DAC50025D299 /* GeofenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA34AABE2CE4DAA90025D299 /* GeofenceService.swift */; };
+		DA4B76632D109C0C00BA7CE1 /* CallUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76622D109C0800BA7CE1 /* CallUser.swift */; };
+		DA4B76652D11A07600BA7CE1 /* AgoraListenersForCallKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76642D11A05000BA7CE1 /* AgoraListenersForCallKit.swift */; };
+		DA4B76682D11DD1B00BA7CE1 /* PusherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76672D11DD1600BA7CE1 /* PusherManager.swift */; };
+		DA4B766B2D11E54300BA7CE1 /* PusherSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DA4B766A2D11E54300BA7CE1 /* PusherSwift */; };
+		DA4B766E2D11EB7F00BA7CE1 /* PusherDelegateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B766D2D11EB6F00BA7CE1 /* PusherDelegateExtension.swift */; };
+		DA4B76712D12041D00BA7CE1 /* PusherSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DA4B76702D12041D00BA7CE1 /* PusherSwift */; };
+		DA4B76742D12E7DA00BA7CE1 /* PusherSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DA4B76732D12E7DA00BA7CE1 /* PusherSwift */; };
+		DA4B76762D1316B200BA7CE1 /* PusherAuthenticatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76752D1316A600BA7CE1 /* PusherAuthenticatorDelegate.swift */; };
+		DA4B76782D143FDB00BA7CE1 /* StartCallRecordingApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76772D143FDB00BA7CE1 /* StartCallRecordingApi.swift */; };
+		DA4B767D2D14426800BA7CE1 /* StartCallRecordingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B767C2D14426800BA7CE1 /* StartCallRecordingModel.swift */; };
+		DA4B767F2D14455D00BA7CE1 /* StopCallRecordingApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B767E2D14455D00BA7CE1 /* StopCallRecordingApi.swift */; };
+		DA4B76832D1448E500BA7CE1 /* CallChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76822D1448E000BA7CE1 /* CallChannel.swift */; };
+		DA4B76852D14559200BA7CE1 /* AgoraCallRecordingExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76842D14558300BA7CE1 /* AgoraCallRecordingExtension.swift */; };
+		DA4B76872D145EF700BA7CE1 /* AgoraCallTimerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76862D145EEE00BA7CE1 /* AgoraCallTimerExtension.swift */; };
+		DA4B76892D145FB000BA7CE1 /* AgoraReseterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76882D145FA300BA7CE1 /* AgoraReseterExtension.swift */; };
+		DA4B768B2D1474A600BA7CE1 /* CallEndedEventApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B768A2D1474A600BA7CE1 /* CallEndedEventApi.swift */; };
+		DA4B76932D15827000BA7CE1 /* CallScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76922D15827000BA7CE1 /* CallScreenView.swift */; };
+		DA4B76962D15906500BA7CE1 /* CallControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76952D15905300BA7CE1 /* CallControlsView.swift */; };
+		DA4B76982D15917600BA7CE1 /* AgoraCallControlsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76972D15916300BA7CE1 /* AgoraCallControlsExtension.swift */; };
+		DA4B769A2D159ABF00BA7CE1 /* OneToOneAudioCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76992D159AB200BA7CE1 /* OneToOneAudioCallView.swift */; };
+		DA4B769C2D159EB700BA7CE1 /* CallTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B769B2D159EA300BA7CE1 /* CallTimeView.swift */; };
+		DA4B769E2D15D48000BA7CE1 /* OneToOneVideoCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B769D2D15D48000BA7CE1 /* OneToOneVideoCallView.swift */; };
+		DA4B76A02D15DB3200BA7CE1 /* AgoraStaticVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B769F2D15DB3200BA7CE1 /* AgoraStaticVideoView.swift */; };
+		DA4B76A22D15DDDE00BA7CE1 /* CallState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76A12D15DDD800BA7CE1 /* CallState.swift */; };
+		DA4B76A52D19D6CC00BA7CE1 /* GroupAudioCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76A42D19D6CC00BA7CE1 /* GroupAudioCallView.swift */; };
+		DA4B76A72D1B182700BA7CE1 /* GroupVideoCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76A62D1B182700BA7CE1 /* GroupVideoCallView.swift */; };
+		DA4B76AC2D1C758000BA7CE1 /* AgoraDynamicVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76AB2D1C758000BA7CE1 /* AgoraDynamicVideoView.swift */; };
+		DA4B76AF2D1D958A00BA7CE1 /* NativeCallingMethodChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76AE2D1D958A00BA7CE1 /* NativeCallingMethodChannel.swift */; };
+		DA4B76B12D1D9E6000BA7CE1 /* NativeCallingEventChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76B02D1D9E5500BA7CE1 /* NativeCallingEventChannel.swift */; };
+		DA4B76B42D1DA27C00BA7CE1 /* NativeCallingEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76B32D1DA27B00BA7CE1 /* NativeCallingEvents.swift */; };
+		DA4B76B72D1EF62F00BA7CE1 /* CallEventDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76B62D1EF62F00BA7CE1 /* CallEventDataModel.swift */; };
+		DA4B76B92D1F024500BA7CE1 /* CallChannelEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76B82D1F024500BA7CE1 /* CallChannelEvents.swift */; };
+		DA4B76C22D1F17B400BA7CE1 /* CallRingingEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76C12D1F17AC00BA7CE1 /* CallRingingEvent.swift */; };
+		DA4B76C42D1F249900BA7CE1 /* CallAcceptedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76C32D1F249900BA7CE1 /* CallAcceptedEvent.swift */; };
+		DA4B76C62D1F24EF00BA7CE1 /* CallDeclinedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76C52D1F24EF00BA7CE1 /* CallDeclinedEvent.swift */; };
+		DA4B76C82D1F251E00BA7CE1 /* CallNoAnswerEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76C72D1F251E00BA7CE1 /* CallNoAnswerEvent.swift */; };
+		DA4B76CA2D1F255D00BA7CE1 /* CallUserBusyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76C92D1F255D00BA7CE1 /* CallUserBusyEvent.swift */; };
+		DA4B76CC2D22BE2500BA7CE1 /* CallEventsBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4B76CB2D22BDF400BA7CE1 /* CallEventsBinder.swift */; };
+		DA6C27912D0A032300C5906C /* CallPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C278C2D0A032300C5906C /* CallPayload.swift */; };
+		DA6C27922D0A032300C5906C /* VoipChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C278E2D0A032300C5906C /* VoipChannel.swift */; };
+		DA6C27932D0A032300C5906C /* CallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C278D2D0A032300C5906C /* CallManager.swift */; };
+		DA6C27952D0A036B00C5906C /* PushKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C27942D0A036B00C5906C /* PushKitManager.swift */; };
+		DA6C27982D0B0EF100C5906C /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C27972D0B0EF100C5906C /* Call.swift */; };
+		DA6C279A2D0B10A300C5906C /* ProviderDelegateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C27992D0B109700C5906C /* ProviderDelegateExtension.swift */; };
+		DA6C27A02D0B2BD700C5906C /* CallEventsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C279F2D0B2BCF00C5906C /* CallEventsHelper.swift */; };
+		DA6C27A22D0B6E2E00C5906C /* CallTimeOutSchedulerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C27A12D0B6E1D00C5906C /* CallTimeOutSchedulerExtension.swift */; };
+		DA6C27A62D0C68A500C5906C /* InterruptionNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C27A52D0C688200C5906C /* InterruptionNotificationManager.swift */; };
+		DA6C27AA2D0C888900C5906C /* AgoraTokenApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C27A92D0C887600C5906C /* AgoraTokenApi.swift */; };
+		DA6C27AC2D0C8BCD00C5906C /* JoiningAs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C27AB2D0C8BC300C5906C /* JoiningAs.swift */; };
+		DA6C27B62D1058A900C5906C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6C27B52D10589F00C5906C /* libsqlite3.tbd */; };
+		DA6C27B72D1058B000C5906C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6C27B52D10589F00C5906C /* libsqlite3.tbd */; };
+		DA6C27B82D1058B700C5906C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6C27B52D10589F00C5906C /* libsqlite3.tbd */; };
+		DA6C27BB2D10599000C5906C /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C27BA2D10598600C5906C /* DatabaseManager.swift */; };
+		DA6C27BE2D10669E00C5906C /* ConversationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C27BD2D10669200C5906C /* ConversationModel.swift */; };
+		DA6C27C02D10688D00C5906C /* ParticipantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C27BF2D10688200C5906C /* ParticipantModel.swift */; };
+		DA6C27C22D1068CD00C5906C /* ModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C27C12D1068CA00C5906C /* ModelType.swift */; };
+		DA6C27C42D10693C00C5906C /* ConversationReciverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C27C32D10693C00C5906C /* ConversationReciverModel.swift */; };
+		DA6C27C82D107DA700C5906C /* AgoraValidatorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C27C72D107D9B00C5906C /* AgoraValidatorExtension.swift */; };
+		DA6C27CD2D10823200C5906C /* GroupConversationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C27CC2D10823200C5906C /* GroupConversationModel.swift */; };
+		DA6C27CF2D10824100C5906C /* GroupInnerConversationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C27CE2D10824100C5906C /* GroupInnerConversationModel.swift */; };
+		DA6C27D32D10824F00C5906C /* GroupSettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C27D22D10824F00C5906C /* GroupSettingsModel.swift */; };
+		DA6C27D82D10841400C5906C /* DatabasePathFinderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C27D72D10840800C5906C /* DatabasePathFinderExtension.swift */; };
+		DA6C27DA2D1086AF00C5906C /* DatabaseDecoderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C27D92D10869A00C5906C /* DatabaseDecoderExtension.swift */; };
+		DA6C27DC2D108FBA00C5906C /* AgoraCallDataLoaderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C27DB2D108FAC00C5906C /* AgoraCallDataLoaderExtension.swift */; };
+		DA764ABA2D48FA3800F64D5B /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DA764AB92D48FA2B00F64D5B /* libsqlite3.0.tbd */; };
+		DA764ABB2D48FA3800F64D5B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6C27B52D10589F00C5906C /* libsqlite3.tbd */; };
+		DA84B8CB2D6F718100D9A3C4 /* CallDeclinedWhisperEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA84B8CA2D6F718100D9A3C4 /* CallDeclinedWhisperEvent.swift */; };
+		DA8886512B273B9D0086F833 /* LocationSrevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8886502B273B9D0086F833 /* LocationSrevice.swift */; };
+		DA8886532B273C320086F833 /* LocationChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8886522B273C320086F833 /* LocationChannel.swift */; };
+		DACB775A2BD6CEEE009222A3 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = DACB77592BD6CEEE009222A3 /* PrivacyInfo.xcprivacy */; };
+		DADA07B02D09ABE30064C874 /* AgoraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADA07AF2D09ABD90064C874 /* AgoraManager.swift */; };
+		DADA07B22D09ACE70064C874 /* AgoraDelegateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADA07B12D09ACDA0064C874 /* AgoraDelegateExtension.swift */; };
+		DAE2FBE72D4D2BEC00D2B1B2 /* RtcBasic in Frameworks */ = {isa = PBXBuildFile; productRef = DAE2FBE62D4D2BEC00D2B1B2 /* RtcBasic */; };
+		DAFE17C12E10A1B200FECF01 /* RealtimeConfigApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFE17C22E10A1B200FECF02 /* RealtimeConfigApi.swift */; };
+		DAFF1C722B6BFC9F0014518B /* ClockInOutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF1C712B6BFC9F0014518B /* ClockInOutSession.swift */; };
+		DAFF1C742B6C027C0014518B /* FirebaseLocationLogUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF1C732B6C027C0014518B /* FirebaseLocationLogUpdater.swift */; };
+		DAFF1C782B6C15CC0014518B /* MyDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF1C752B6C13C20014518B /* MyDetails.swift */; };
+		F08B8C4F24C35C33E5FF5B54 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6A0A8B5BEB55F68B851CA6 /* Pods_Runner.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9705A1C41CF9048500538489 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D6A0A8B5BEB55F68B851CA6 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
+		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
+		280E0A10D1026247E6BA2510 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
+		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
+		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
+		9740EEB21CF90195004384FC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Flutter/Debug.xcconfig; sourceTree = "<group>"; };
+		9740EEB31CF90195004384FC /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Generated.xcconfig; path = Flutter/Generated.xcconfig; sourceTree = "<group>"; };
+		97C146EE1CF9000F007C117D /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97C146FB1CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B99DFF8E63FB3F966763014F /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		DA06596E2B3B0F5400289CB0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DA0ABD7A2D6E369700F45080 /* CallAcceptedWhisperEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallAcceptedWhisperEvent.swift; sourceTree = "<group>"; };
+		DA23C7902C60FB6B00BD35E3 /* BackgroundTaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTaskManager.swift; sourceTree = "<group>"; };
+		DA23C7922C60FE7000BD35E3 /* BackgroundTasks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BackgroundTasks.framework; path = System/Library/Frameworks/BackgroundTasks.framework; sourceTree = SDKROOT; };
+		DA23C7942C61175900BD35E3 /* ClockInSessionStopper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockInSessionStopper.swift; sourceTree = "<group>"; };
+		DA34AABE2CE4DAA90025D299 /* GeofenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeofenceService.swift; sourceTree = "<group>"; };
+		DA44BC972B054A7500546241 /* Runner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Runner.entitlements; sourceTree = "<group>"; };
+		DA4B76622D109C0800BA7CE1 /* CallUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallUser.swift; sourceTree = "<group>"; };
+		DA4B76642D11A05000BA7CE1 /* AgoraListenersForCallKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraListenersForCallKit.swift; sourceTree = "<group>"; };
+		DA4B76672D11DD1600BA7CE1 /* PusherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PusherManager.swift; sourceTree = "<group>"; };
+		DA4B766D2D11EB6F00BA7CE1 /* PusherDelegateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PusherDelegateExtension.swift; sourceTree = "<group>"; };
+		DA4B76752D1316A600BA7CE1 /* PusherAuthenticatorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PusherAuthenticatorDelegate.swift; sourceTree = "<group>"; };
+		DA4B76772D143FDB00BA7CE1 /* StartCallRecordingApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCallRecordingApi.swift; sourceTree = "<group>"; };
+		DA4B767C2D14426800BA7CE1 /* StartCallRecordingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCallRecordingModel.swift; sourceTree = "<group>"; };
+		DA4B767E2D14455D00BA7CE1 /* StopCallRecordingApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopCallRecordingApi.swift; sourceTree = "<group>"; };
+		DA4B76822D1448E000BA7CE1 /* CallChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallChannel.swift; sourceTree = "<group>"; };
+		DA4B76842D14558300BA7CE1 /* AgoraCallRecordingExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraCallRecordingExtension.swift; sourceTree = "<group>"; };
+		DA4B76862D145EEE00BA7CE1 /* AgoraCallTimerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraCallTimerExtension.swift; sourceTree = "<group>"; };
+		DA4B76882D145FA300BA7CE1 /* AgoraReseterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraReseterExtension.swift; sourceTree = "<group>"; };
+		DA4B768A2D1474A600BA7CE1 /* CallEndedEventApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallEndedEventApi.swift; sourceTree = "<group>"; };
+		DA4B76922D15827000BA7CE1 /* CallScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallScreenView.swift; sourceTree = "<group>"; };
+		DA4B76952D15905300BA7CE1 /* CallControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallControlsView.swift; sourceTree = "<group>"; };
+		DA4B76972D15916300BA7CE1 /* AgoraCallControlsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraCallControlsExtension.swift; sourceTree = "<group>"; };
+		DA4B76992D159AB200BA7CE1 /* OneToOneAudioCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneToOneAudioCallView.swift; sourceTree = "<group>"; };
+		DA4B769B2D159EA300BA7CE1 /* CallTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallTimeView.swift; sourceTree = "<group>"; };
+		DA4B769D2D15D48000BA7CE1 /* OneToOneVideoCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneToOneVideoCallView.swift; sourceTree = "<group>"; };
+		DA4B769F2D15DB3200BA7CE1 /* AgoraStaticVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraStaticVideoView.swift; sourceTree = "<group>"; };
+		DA4B76A12D15DDD800BA7CE1 /* CallState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallState.swift; sourceTree = "<group>"; };
+		DA4B76A42D19D6CC00BA7CE1 /* GroupAudioCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAudioCallView.swift; sourceTree = "<group>"; };
+		DA4B76A62D1B182700BA7CE1 /* GroupVideoCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupVideoCallView.swift; sourceTree = "<group>"; };
+		DA4B76AB2D1C758000BA7CE1 /* AgoraDynamicVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraDynamicVideoView.swift; sourceTree = "<group>"; };
+		DA4B76AE2D1D958A00BA7CE1 /* NativeCallingMethodChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeCallingMethodChannel.swift; sourceTree = "<group>"; };
+		DA4B76B02D1D9E5500BA7CE1 /* NativeCallingEventChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeCallingEventChannel.swift; sourceTree = "<group>"; };
+		DA4B76B32D1DA27B00BA7CE1 /* NativeCallingEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeCallingEvents.swift; sourceTree = "<group>"; };
+		DA4B76B62D1EF62F00BA7CE1 /* CallEventDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallEventDataModel.swift; sourceTree = "<group>"; };
+		DA4B76B82D1F024500BA7CE1 /* CallChannelEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallChannelEvents.swift; sourceTree = "<group>"; };
+		DA4B76C12D1F17AC00BA7CE1 /* CallRingingEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallRingingEvent.swift; sourceTree = "<group>"; };
+		DA4B76C32D1F249900BA7CE1 /* CallAcceptedEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallAcceptedEvent.swift; sourceTree = "<group>"; };
+		DA4B76C52D1F24EF00BA7CE1 /* CallDeclinedEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallDeclinedEvent.swift; sourceTree = "<group>"; };
+		DA4B76C72D1F251E00BA7CE1 /* CallNoAnswerEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallNoAnswerEvent.swift; sourceTree = "<group>"; };
+		DA4B76C92D1F255D00BA7CE1 /* CallUserBusyEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallUserBusyEvent.swift; sourceTree = "<group>"; };
+		DA4B76CB2D22BDF400BA7CE1 /* CallEventsBinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallEventsBinder.swift; sourceTree = "<group>"; };
+		DA6C278C2D0A032300C5906C /* CallPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallPayload.swift; sourceTree = "<group>"; };
+		DA6C278D2D0A032300C5906C /* CallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallManager.swift; sourceTree = "<group>"; };
+		DA6C278E2D0A032300C5906C /* VoipChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoipChannel.swift; sourceTree = "<group>"; };
+		DA6C27942D0A036B00C5906C /* PushKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushKitManager.swift; sourceTree = "<group>"; };
+		DA6C27972D0B0EF100C5906C /* Call.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Call.swift; sourceTree = "<group>"; };
+		DA6C27992D0B109700C5906C /* ProviderDelegateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderDelegateExtension.swift; sourceTree = "<group>"; };
+		DA6C279F2D0B2BCF00C5906C /* CallEventsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallEventsHelper.swift; sourceTree = "<group>"; };
+		DA6C27A12D0B6E1D00C5906C /* CallTimeOutSchedulerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallTimeOutSchedulerExtension.swift; sourceTree = "<group>"; };
+		DA6C27A52D0C688200C5906C /* InterruptionNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterruptionNotificationManager.swift; sourceTree = "<group>"; };
+		DA6C27A92D0C887600C5906C /* AgoraTokenApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraTokenApi.swift; sourceTree = "<group>"; };
+		DA6C27AB2D0C8BC300C5906C /* JoiningAs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoiningAs.swift; sourceTree = "<group>"; };
+		DA6C27B52D10589F00C5906C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		DA6C27BA2D10598600C5906C /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		DA6C27BD2D10669200C5906C /* ConversationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationModel.swift; sourceTree = "<group>"; };
+		DA6C27BF2D10688200C5906C /* ParticipantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantModel.swift; sourceTree = "<group>"; };
+		DA6C27C12D1068CA00C5906C /* ModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelType.swift; sourceTree = "<group>"; };
+		DA6C27C32D10693C00C5906C /* ConversationReciverModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationReciverModel.swift; sourceTree = "<group>"; };
+		DA6C27C72D107D9B00C5906C /* AgoraValidatorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraValidatorExtension.swift; sourceTree = "<group>"; };
+		DA6C27CC2D10823200C5906C /* GroupConversationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupConversationModel.swift; sourceTree = "<group>"; };
+		DA6C27CE2D10824100C5906C /* GroupInnerConversationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupInnerConversationModel.swift; sourceTree = "<group>"; };
+		DA6C27D22D10824F00C5906C /* GroupSettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupSettingsModel.swift; sourceTree = "<group>"; };
+		DA6C27D72D10840800C5906C /* DatabasePathFinderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabasePathFinderExtension.swift; sourceTree = "<group>"; };
+		DA6C27D92D10869A00C5906C /* DatabaseDecoderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseDecoderExtension.swift; sourceTree = "<group>"; };
+		DA6C27DB2D108FAC00C5906C /* AgoraCallDataLoaderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraCallDataLoaderExtension.swift; sourceTree = "<group>"; };
+		DA764AB92D48FA2B00F64D5B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		DA84B8CA2D6F718100D9A3C4 /* CallDeclinedWhisperEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallDeclinedWhisperEvent.swift; sourceTree = "<group>"; };
+		DA8886502B273B9D0086F833 /* LocationSrevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSrevice.swift; sourceTree = "<group>"; };
+		DA8886522B273C320086F833 /* LocationChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationChannel.swift; sourceTree = "<group>"; };
+		DACB77592BD6CEEE009222A3 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		DADA07AF2D09ABD90064C874 /* AgoraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraManager.swift; sourceTree = "<group>"; };
+		DADA07B12D09ACDA0064C874 /* AgoraDelegateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraDelegateExtension.swift; sourceTree = "<group>"; };
+		DAFE17C22E10A1B200FECF02 /* RealtimeConfigApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeConfigApi.swift; sourceTree = "<group>"; };
+		DAFF1C712B6BFC9F0014518B /* ClockInOutSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockInOutSession.swift; sourceTree = "<group>"; };
+		DAFF1C732B6C027C0014518B /* FirebaseLocationLogUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseLocationLogUpdater.swift; sourceTree = "<group>"; };
+		DAFF1C752B6C13C20014518B /* MyDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDetails.swift; sourceTree = "<group>"; };
+		DC6DA890A8A0F75C41BD9F86 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97C146EB1CF9000F007C117D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA764ABB2D48FA3800F64D5B /* libsqlite3.tbd in Frameworks */,
+				DA6C27B82D1058B700C5906C /* libsqlite3.tbd in Frameworks */,
+				DA6C27B62D1058A900C5906C /* libsqlite3.tbd in Frameworks */,
+				F08B8C4F24C35C33E5FF5B54 /* Pods_Runner.framework in Frameworks */,
+				DA4B766B2D11E54300BA7CE1 /* PusherSwift in Frameworks */,
+				DAE2FBE72D4D2BEC00D2B1B2 /* RtcBasic in Frameworks */,
+				DA6C27B72D1058B000C5906C /* libsqlite3.tbd in Frameworks */,
+				DA764ABA2D48FA3800F64D5B /* libsqlite3.0.tbd in Frameworks */,
+				DA4B76712D12041D00BA7CE1 /* PusherSwift in Frameworks */,
+				DA23C7932C60FE7000BD35E3 /* BackgroundTasks.framework in Frameworks */,
+				DA4B76742D12E7DA00BA7CE1 /* PusherSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8211E88660EA5484AC28B897 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				280E0A10D1026247E6BA2510 /* Pods-Runner.debug.xcconfig */,
+				B99DFF8E63FB3F966763014F /* Pods-Runner.release.xcconfig */,
+				DC6DA890A8A0F75C41BD9F86 /* Pods-Runner.profile.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9740EEB11CF90186004384FC /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */,
+				9740EEB21CF90195004384FC /* Debug.xcconfig */,
+				7AFA3C8E1D35360C0083082E /* Release.xcconfig */,
+				9740EEB31CF90195004384FC /* Generated.xcconfig */,
+			);
+			name = Flutter;
+			sourceTree = "<group>";
+		};
+		97C146E51CF9000F007C117D = {
+			isa = PBXGroup;
+			children = (
+				9740EEB11CF90186004384FC /* Flutter */,
+				97C146F01CF9000F007C117D /* Runner */,
+				97C146EF1CF9000F007C117D /* Products */,
+				8211E88660EA5484AC28B897 /* Pods */,
+				F9ABC79592393C087F6AC767 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		97C146EF1CF9000F007C117D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97C146EE1CF9000F007C117D /* Runner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97C146F01CF9000F007C117D /* Runner */ = {
+			isa = PBXGroup;
+			children = (
+				DACB77592BD6CEEE009222A3 /* PrivacyInfo.xcprivacy */,
+				DAFF1C752B6C13C20014518B /* MyDetails.swift */,
+				DA06596E2B3B0F5400289CB0 /* GoogleService-Info.plist */,
+				DA44BC972B054A7500546241 /* Runner.entitlements */,
+				97C146FA1CF9000F007C117D /* Main.storyboard */,
+				97C146FD1CF9000F007C117D /* Assets.xcassets */,
+				97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */,
+				97C147021CF9000F007C117D /* Info.plist */,
+				1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */,
+				1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */,
+				74858FAE1ED2DC5600515810 /* AppDelegate.swift */,
+				74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */,
+				DA4B76A32D197ED100BA7CE1 /* Clock In Out Location */,
+				DA6C278F2D0A032300C5906C /* Callkit */,
+				DADA07AC2D09ABA90064C874 /* Agora */,
+				DA4B76662D11DD0D00BA7CE1 /* Pusher */,
+				DA6C27B92D10597400C5906C /* Database */,
+			);
+			path = Runner;
+			sourceTree = "<group>";
+		};
+		DA4B76612D109C0100BA7CE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B76622D109C0800BA7CE1 /* CallUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DA4B76662D11DD0D00BA7CE1 /* Pusher */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B76812D1448D800BA7CE1 /* Channels */,
+				DA4B766C2D11EB6800BA7CE1 /* Extensions */,
+				DA4B76672D11DD1600BA7CE1 /* PusherManager.swift */,
+			);
+			path = Pusher;
+			sourceTree = "<group>";
+		};
+		DA4B766C2D11EB6800BA7CE1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B76752D1316A600BA7CE1 /* PusherAuthenticatorDelegate.swift */,
+				DA4B766D2D11EB6F00BA7CE1 /* PusherDelegateExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DA4B767A2D14424300BA7CE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B767C2D14426800BA7CE1 /* StartCallRecordingModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DA4B76802D14480000BA7CE1 /* Apis */ = {
+			isa = PBXGroup;
+			children = (
+				DA6C27A92D0C887600C5906C /* AgoraTokenApi.swift */,
+				DAFE17C22E10A1B200FECF02 /* RealtimeConfigApi.swift */,
+				DA4B76772D143FDB00BA7CE1 /* StartCallRecordingApi.swift */,
+				DA4B767E2D14455D00BA7CE1 /* StopCallRecordingApi.swift */,
+				DA4B768A2D1474A600BA7CE1 /* CallEndedEventApi.swift */,
+			);
+			path = Apis;
+			sourceTree = "<group>";
+		};
+		DA4B76812D1448D800BA7CE1 /* Channels */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B76BA2D1F0BD500BA7CE1 /* Call Channel */,
+			);
+			path = Channels;
+			sourceTree = "<group>";
+		};
+		DA4B768F2D15803B00BA7CE1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B76AA2D1B187600BA7CE1 /* Common */,
+				DA4B76A92D1B185E00BA7CE1 /* Oto Call */,
+				DA4B76A82D1B184A00BA7CE1 /* Group Call */,
+				DA4B76922D15827000BA7CE1 /* CallScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA4B76A32D197ED100BA7CE1 /* Clock In Out Location */ = {
+			isa = PBXGroup;
+			children = (
+				DA23C7902C60FB6B00BD35E3 /* BackgroundTaskManager.swift */,
+				DAFF1C732B6C027C0014518B /* FirebaseLocationLogUpdater.swift */,
+				DA8886502B273B9D0086F833 /* LocationSrevice.swift */,
+				DA8886522B273C320086F833 /* LocationChannel.swift */,
+				DA34AABE2CE4DAA90025D299 /* GeofenceService.swift */,
+				DA23C7942C61175900BD35E3 /* ClockInSessionStopper.swift */,
+				DAFF1C712B6BFC9F0014518B /* ClockInOutSession.swift */,
+			);
+			path = "Clock In Out Location";
+			sourceTree = "<group>";
+		};
+		DA4B76A82D1B184A00BA7CE1 /* Group Call */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B76A42D19D6CC00BA7CE1 /* GroupAudioCallView.swift */,
+				DA4B76A62D1B182700BA7CE1 /* GroupVideoCallView.swift */,
+			);
+			path = "Group Call";
+			sourceTree = "<group>";
+		};
+		DA4B76A92D1B185E00BA7CE1 /* Oto Call */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B76992D159AB200BA7CE1 /* OneToOneAudioCallView.swift */,
+				DA4B769D2D15D48000BA7CE1 /* OneToOneVideoCallView.swift */,
+			);
+			path = "Oto Call";
+			sourceTree = "<group>";
+		};
+		DA4B76AA2D1B187600BA7CE1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B769F2D15DB3200BA7CE1 /* AgoraStaticVideoView.swift */,
+				DA4B76AB2D1C758000BA7CE1 /* AgoraDynamicVideoView.swift */,
+				DA4B769B2D159EA300BA7CE1 /* CallTimeView.swift */,
+				DA4B76952D15905300BA7CE1 /* CallControlsView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DA4B76AD2D1D957900BA7CE1 /* Channels */ = {
+			isa = PBXGroup;
+			children = (
+				DA6C278E2D0A032300C5906C /* VoipChannel.swift */,
+				DA4B76AE2D1D958A00BA7CE1 /* NativeCallingMethodChannel.swift */,
+				DA4B76B02D1D9E5500BA7CE1 /* NativeCallingEventChannel.swift */,
+			);
+			path = Channels;
+			sourceTree = "<group>";
+		};
+		DA4B76B22D1DA26D00BA7CE1 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B76B32D1DA27B00BA7CE1 /* NativeCallingEvents.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		DA4B76B52D1EF62900BA7CE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B76B62D1EF62F00BA7CE1 /* CallEventDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DA4B76BA2D1F0BD500BA7CE1 /* Call Channel */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B76B52D1EF62900BA7CE1 /* Models */,
+				DA4B76C02D1F17A200BA7CE1 /* Events */,
+				DA4B76B82D1F024500BA7CE1 /* CallChannelEvents.swift */,
+				DA4B76822D1448E000BA7CE1 /* CallChannel.swift */,
+			);
+			path = "Call Channel";
+			sourceTree = "<group>";
+		};
+		DA4B76C02D1F17A200BA7CE1 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B76C12D1F17AC00BA7CE1 /* CallRingingEvent.swift */,
+				DA4B76C32D1F249900BA7CE1 /* CallAcceptedEvent.swift */,
+				DA0ABD7A2D6E369700F45080 /* CallAcceptedWhisperEvent.swift */,
+				DA4B76C52D1F24EF00BA7CE1 /* CallDeclinedEvent.swift */,
+				DA84B8CA2D6F718100D9A3C4 /* CallDeclinedWhisperEvent.swift */,
+				DA4B76C72D1F251E00BA7CE1 /* CallNoAnswerEvent.swift */,
+				DA4B76C92D1F255D00BA7CE1 /* CallUserBusyEvent.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		DA6C278F2D0A032300C5906C /* Callkit */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B76B22D1DA26D00BA7CE1 /* Enums */,
+				DA4B76AD2D1D957900BA7CE1 /* Channels */,
+				DA6C279E2D0B2BC400C5906C /* Helpers */,
+				DA6C279D2D0B128600C5906C /* Extensions */,
+				DA6C279C2D0B127500C5906C /* Managers */,
+				DA6C279B2D0B126300C5906C /* Models */,
+			);
+			path = Callkit;
+			sourceTree = "<group>";
+		};
+		DA6C279B2D0B126300C5906C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA6C278C2D0A032300C5906C /* CallPayload.swift */,
+				DA6C27972D0B0EF100C5906C /* Call.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DA6C279C2D0B127500C5906C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				DA6C27A52D0C688200C5906C /* InterruptionNotificationManager.swift */,
+				DA6C27942D0A036B00C5906C /* PushKitManager.swift */,
+				DA6C278D2D0A032300C5906C /* CallManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		DA6C279D2D0B128600C5906C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B76CB2D22BDF400BA7CE1 /* CallEventsBinder.swift */,
+				DA6C27A12D0B6E1D00C5906C /* CallTimeOutSchedulerExtension.swift */,
+				DA6C27992D0B109700C5906C /* ProviderDelegateExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DA6C279E2D0B2BC400C5906C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DA6C279F2D0B2BCF00C5906C /* CallEventsHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DA6C27A72D0C885400C5906C /* Apis */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B76802D14480000BA7CE1 /* Apis */,
+				DA4B767A2D14424300BA7CE1 /* Models */,
+			);
+			path = Apis;
+			sourceTree = "<group>";
+		};
+		DA6C27AD2D0C8BD000C5906C /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B76A12D15DDD800BA7CE1 /* CallState.swift */,
+				DA6C27AB2D0C8BC300C5906C /* JoiningAs.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		DA6C27B02D0CBBF800C5906C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B76972D15916300BA7CE1 /* AgoraCallControlsExtension.swift */,
+				DA4B76882D145FA300BA7CE1 /* AgoraReseterExtension.swift */,
+				DA4B76862D145EEE00BA7CE1 /* AgoraCallTimerExtension.swift */,
+				DA4B76842D14558300BA7CE1 /* AgoraCallRecordingExtension.swift */,
+				DA4B76642D11A05000BA7CE1 /* AgoraListenersForCallKit.swift */,
+				DA6C27DB2D108FAC00C5906C /* AgoraCallDataLoaderExtension.swift */,
+				DA6C27C72D107D9B00C5906C /* AgoraValidatorExtension.swift */,
+				DADA07B12D09ACDA0064C874 /* AgoraDelegateExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DA6C27B92D10597400C5906C /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				DA6C27D62D10840100C5906C /* Extensions */,
+				DA6C27BC2D10668C00C5906C /* Models */,
+				DA6C27BA2D10598600C5906C /* DatabaseManager.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		DA6C27BC2D10668C00C5906C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA6C27CB2D10808E00C5906C /* Group */,
+				DA6C27CA2D10808100C5906C /* Common */,
+				DA6C27C92D10807200C5906C /* Oto */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DA6C27C92D10807200C5906C /* Oto */ = {
+			isa = PBXGroup;
+			children = (
+				DA6C27C32D10693C00C5906C /* ConversationReciverModel.swift */,
+				DA6C27BD2D10669200C5906C /* ConversationModel.swift */,
+			);
+			path = Oto;
+			sourceTree = "<group>";
+		};
+		DA6C27CA2D10808100C5906C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DA6C27C12D1068CA00C5906C /* ModelType.swift */,
+				DA6C27BF2D10688200C5906C /* ParticipantModel.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DA6C27CB2D10808E00C5906C /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				DA6C27D22D10824F00C5906C /* GroupSettingsModel.swift */,
+				DA6C27CE2D10824100C5906C /* GroupInnerConversationModel.swift */,
+				DA6C27CC2D10823200C5906C /* GroupConversationModel.swift */,
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		DA6C27D62D10840100C5906C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DA6C27D92D10869A00C5906C /* DatabaseDecoderExtension.swift */,
+				DA6C27D72D10840800C5906C /* DatabasePathFinderExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DADA07AC2D09ABA90064C874 /* Agora */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B768F2D15803B00BA7CE1 /* View */,
+				DA4B76612D109C0100BA7CE1 /* Models */,
+				DA6C27B02D0CBBF800C5906C /* Extensions */,
+				DA6C27AD2D0C8BD000C5906C /* Enums */,
+				DA6C27A72D0C885400C5906C /* Apis */,
+				DADA07AF2D09ABD90064C874 /* AgoraManager.swift */,
+			);
+			path = Agora;
+			sourceTree = "<group>";
+		};
+		F9ABC79592393C087F6AC767 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA764AB92D48FA2B00F64D5B /* libsqlite3.0.tbd */,
+				DA6C27B52D10589F00C5906C /* libsqlite3.tbd */,
+				DA23C7922C60FE7000BD35E3 /* BackgroundTasks.framework */,
+				0D6A0A8B5BEB55F68B851CA6 /* Pods_Runner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97C146ED1CF9000F007C117D /* Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "Runner" */;
+			buildPhases = (
+				C1F25D7EF2ECE019E40C5458 /* [CP] Check Pods Manifest.lock */,
+				9740EEB61CF901F6004384FC /* Run Script */,
+				97C146EA1CF9000F007C117D /* Sources */,
+				97C146EB1CF9000F007C117D /* Frameworks */,
+				97C146EC1CF9000F007C117D /* Resources */,
+				9705A1C41CF9048500538489 /* Embed Frameworks */,
+				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
+				ABF31D73BBB1E408922C650D /* [CP] Embed Pods Frameworks */,
+				B19BED08E16CEF9291C42B6D /* [CP] Copy Pods Resources */,
+				D943361508810CAD821824D3 /* [firebase_crashlytics] Crashlytics Upload Symbols */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Runner;
+			productName = Runner;
+			productReference = 97C146EE1CF9000F007C117D /* Runner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97C146E61CF9000F007C117D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1510;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					97C146ED1CF9000F007C117D = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 1100;
+					};
+				};
+			};
+			buildConfigurationList = 97C146E91CF9000F007C117D /* Build configuration list for PBXProject "Runner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97C146E51CF9000F007C117D;
+			packageReferences = (
+				DA4B76722D12E7DA00BA7CE1 /* XCRemoteSwiftPackageReference "pusher-websocket-swift" */,
+				DAE2FBE52D4D2BEC00D2B1B2 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */,
+			);
+			productRefGroup = 97C146EF1CF9000F007C117D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97C146ED1CF9000F007C117D /* Runner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97C146EC1CF9000F007C117D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACB775A2BD6CEEE009222A3 /* PrivacyInfo.xcprivacy in Resources */,
+				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
+				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
+				DA06596F2B3B0F5400289CB0 /* GoogleService-Info.plist in Resources */,
+				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
+				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B06AD1E1E4923F5004D2608 /* Thin Binary */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}",
+			);
+			name = "Thin Binary";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin";
+		};
+		9740EEB61CF901F6004384FC /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n";
+		};
+		ABF31D73BBB1E408922C650D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B19BED08E16CEF9291C42B6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1F25D7EF2ECE019E40C5458 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Runner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D943361508810CAD821824D3 /* [firebase_crashlytics] Crashlytics Upload Symbols */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${PRODUCT_NAME}",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist",
+				"$(BUILT_PRODUCTS_DIR)/$(EXECUTABLE_PATH)",
+				"$(PROJECT_DIR)/firebase_app_id_file.json",
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/GoogleService-Info.plist",
+			);
+			name = "[firebase_crashlytics] Crashlytics Upload Symbols";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/FirebaseCrashlytics/upload-symbols\" --flutter-project \"$PROJECT_DIR/firebase_app_id_file.json\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97C146EA1CF9000F007C117D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6C27912D0A032300C5906C /* CallPayload.swift in Sources */,
+				DA6C27922D0A032300C5906C /* VoipChannel.swift in Sources */,
+				DA6C27D82D10841400C5906C /* DatabasePathFinderExtension.swift in Sources */,
+				DA6C27952D0A036B00C5906C /* PushKitManager.swift in Sources */,
+				DA6C27932D0A032300C5906C /* CallManager.swift in Sources */,
+				DA6C27982D0B0EF100C5906C /* Call.swift in Sources */,
+				DA6C279A2D0B10A300C5906C /* ProviderDelegateExtension.swift in Sources */,
+				DAFF1C782B6C15CC0014518B /* MyDetails.swift in Sources */,
+				DAFF1C742B6C027C0014518B /* FirebaseLocationLogUpdater.swift in Sources */,
+				DA4B76982D15917600BA7CE1 /* AgoraCallControlsExtension.swift in Sources */,
+				DA6C27BB2D10599000C5906C /* DatabaseManager.swift in Sources */,
+				DA6C27C42D10693C00C5906C /* ConversationReciverModel.swift in Sources */,
+				DA6C27D32D10824F00C5906C /* GroupSettingsModel.swift in Sources */,
+				DA4B76962D15906500BA7CE1 /* CallControlsView.swift in Sources */,
+				DADA07B02D09ABE30064C874 /* AgoraManager.swift in Sources */,
+				DA4B76AF2D1D958A00BA7CE1 /* NativeCallingMethodChannel.swift in Sources */,
+				DA4B76CA2D1F255D00BA7CE1 /* CallUserBusyEvent.swift in Sources */,
+				DA4B76832D1448E500BA7CE1 /* CallChannel.swift in Sources */,
+				DA6C27A02D0B2BD700C5906C /* CallEventsHelper.swift in Sources */,
+				DA6C27C82D107DA700C5906C /* AgoraValidatorExtension.swift in Sources */,
+				74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
+				DA4B76C82D1F251E00BA7CE1 /* CallNoAnswerEvent.swift in Sources */,
+				DA8886512B273B9D0086F833 /* LocationSrevice.swift in Sources */,
+				DA4B76932D15827000BA7CE1 /* CallScreenView.swift in Sources */,
+				DA4B768B2D1474A600BA7CE1 /* CallEndedEventApi.swift in Sources */,
+				DA8886532B273C320086F833 /* LocationChannel.swift in Sources */,
+				DA0ABD7B2D6E369700F45080 /* CallAcceptedWhisperEvent.swift in Sources */,
+				DA4B76A52D19D6CC00BA7CE1 /* GroupAudioCallView.swift in Sources */,
+				DA4B76B12D1D9E6000BA7CE1 /* NativeCallingEventChannel.swift in Sources */,
+				DA4B76CC2D22BE2500BA7CE1 /* CallEventsBinder.swift in Sources */,
+				DA4B767F2D14455D00BA7CE1 /* StopCallRecordingApi.swift in Sources */,
+				DA4B767D2D14426800BA7CE1 /* StartCallRecordingModel.swift in Sources */,
+				DA4B76B92D1F024500BA7CE1 /* CallChannelEvents.swift in Sources */,
+				DA23C7952C61175900BD35E3 /* ClockInSessionStopper.swift in Sources */,
+				DA4B769E2D15D48000BA7CE1 /* OneToOneVideoCallView.swift in Sources */,
+				DA4B76B72D1EF62F00BA7CE1 /* CallEventDataModel.swift in Sources */,
+				DA4B76762D1316B200BA7CE1 /* PusherAuthenticatorDelegate.swift in Sources */,
+				DA4B769C2D159EB700BA7CE1 /* CallTimeView.swift in Sources */,
+				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
+				DA4B76632D109C0C00BA7CE1 /* CallUser.swift in Sources */,
+				DA4B76A22D15DDDE00BA7CE1 /* CallState.swift in Sources */,
+				DA6C27A62D0C68A500C5906C /* InterruptionNotificationManager.swift in Sources */,
+				DA34AABF2CE4DAC50025D299 /* GeofenceService.swift in Sources */,
+				DA23C7912C60FB6B00BD35E3 /* BackgroundTaskManager.swift in Sources */,
+				DA84B8CB2D6F718100D9A3C4 /* CallDeclinedWhisperEvent.swift in Sources */,
+				DA4B76872D145EF700BA7CE1 /* AgoraCallTimerExtension.swift in Sources */,
+				DA6C27A22D0B6E2E00C5906C /* CallTimeOutSchedulerExtension.swift in Sources */,
+				DA4B76892D145FB000BA7CE1 /* AgoraReseterExtension.swift in Sources */,
+				DAFF1C722B6BFC9F0014518B /* ClockInOutSession.swift in Sources */,
+				DA4B76852D14559200BA7CE1 /* AgoraCallRecordingExtension.swift in Sources */,
+				DA4B76C42D1F249900BA7CE1 /* CallAcceptedEvent.swift in Sources */,
+				DA4B76AC2D1C758000BA7CE1 /* AgoraDynamicVideoView.swift in Sources */,
+				DA4B76682D11DD1B00BA7CE1 /* PusherManager.swift in Sources */,
+				DA4B76A02D15DB3200BA7CE1 /* AgoraStaticVideoView.swift in Sources */,
+				DA4B76C62D1F24EF00BA7CE1 /* CallDeclinedEvent.swift in Sources */,
+				DA6C27DA2D1086AF00C5906C /* DatabaseDecoderExtension.swift in Sources */,
+				DA6C27BE2D10669E00C5906C /* ConversationModel.swift in Sources */,
+				DA6C27AC2D0C8BCD00C5906C /* JoiningAs.swift in Sources */,
+				DA4B76652D11A07600BA7CE1 /* AgoraListenersForCallKit.swift in Sources */,
+				DA6C27C02D10688D00C5906C /* ParticipantModel.swift in Sources */,
+				DA4B766E2D11EB7F00BA7CE1 /* PusherDelegateExtension.swift in Sources */,
+				DA4B76B42D1DA27C00BA7CE1 /* NativeCallingEvents.swift in Sources */,
+				DA4B76782D143FDB00BA7CE1 /* StartCallRecordingApi.swift in Sources */,
+				DADA07B22D09ACE70064C874 /* AgoraDelegateExtension.swift in Sources */,
+				DA4B76A72D1B182700BA7CE1 /* GroupVideoCallView.swift in Sources */,
+				DA6C27CD2D10823200C5906C /* GroupConversationModel.swift in Sources */,
+				DA6C27DC2D108FBA00C5906C /* AgoraCallDataLoaderExtension.swift in Sources */,
+				DA6C27CF2D10824100C5906C /* GroupInnerConversationModel.swift in Sources */,
+				DA4B76C22D1F17B400BA7CE1 /* CallRingingEvent.swift in Sources */,
+				DA6C27AA2D0C888900C5906C /* AgoraTokenApi.swift in Sources */,
+				DAFE17C12E10A1B200FECF01 /* RealtimeConfigApi.swift in Sources */,
+				DA4B769A2D159ABF00BA7CE1 /* OneToOneAudioCallView.swift in Sources */,
+				DA6C27C22D1068CD00C5906C /* ModelType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		97C146FA1CF9000F007C117D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97C146FB1CF9000F007C117D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97C147001CF9000F007C117D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		249021D3217E4FDB00AE95B9 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		249021D4217E4FDB00AE95B9 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 190;
+				DEVELOPMENT_TEAM = B7Z7G2XW4C;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "TS Admin";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.9.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.transportsystemgroup.tsadmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Profile;
+		};
+		97C147031CF9000F007C117D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97C147041CF9000F007C117D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97C147061CF9000F007C117D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 190;
+				DEVELOPMENT_TEAM = B7Z7G2XW4C;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "TS Admin";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.9.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.transportsystemgroup.tsadmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		97C147071CF9000F007C117D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 190;
+				DEVELOPMENT_TEAM = B7Z7G2XW4C;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "TS Admin";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.9.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.transportsystemgroup.tsadmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97C146E91CF9000F007C117D /* Build configuration list for PBXProject "Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C147031CF9000F007C117D /* Debug */,
+				97C147041CF9000F007C117D /* Release */,
+				249021D3217E4FDB00AE95B9 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C147061CF9000F007C117D /* Debug */,
+				97C147071CF9000F007C117D /* Release */,
+				249021D4217E4FDB00AE95B9 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA4B76692D11E54300BA7CE1 /* XCRemoteSwiftPackageReference "pusher-websocket-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pusher/pusher-websocket-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.1.5;
+			};
+		};
+		DA4B766F2D12041D00BA7CE1 /* XCRemoteSwiftPackageReference "pusher-websocket-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pusher/pusher-websocket-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 8.0.0;
+			};
+		};
+		DA4B76722D12E7DA00BA7CE1 /* XCRemoteSwiftPackageReference "pusher-websocket-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pusher/pusher-websocket-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 8.0.0;
+			};
+		};
+		DAE2FBE52D4D2BEC00D2B1B2 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AgoraIO/AgoraRtcEngine_iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA4B766A2D11E54300BA7CE1 /* PusherSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA4B76692D11E54300BA7CE1 /* XCRemoteSwiftPackageReference "pusher-websocket-swift" */;
+			productName = PusherSwift;
+		};
+		DA4B76702D12041D00BA7CE1 /* PusherSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA4B766F2D12041D00BA7CE1 /* XCRemoteSwiftPackageReference "pusher-websocket-swift" */;
+			productName = PusherSwift;
+		};
+		DA4B76732D12E7DA00BA7CE1 /* PusherSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA4B76722D12E7DA00BA7CE1 /* XCRemoteSwiftPackageReference "pusher-websocket-swift" */;
+			productName = PusherSwift;
+		};
+		DAE2FBE62D4D2BEC00D2B1B2 /* RtcBasic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAE2FBE52D4D2BEC00D2B1B2 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = RtcBasic;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 97C146E61CF9000F007C117D /* Project object */;
+}

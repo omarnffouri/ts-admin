@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key></key>
+	<string></string>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.transportsystemgroup.tsadmin.process</string>
+	</array>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>TS Admin</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>ts_admin</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<key>NSAirPlayUsageDescription</key>
+	<string>This app allows you to stream media to AirPlay devices like Apple TV and compatible speakers.</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Select audio files from your media library to send as attachments in chat.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Take photos and videos to set your profile picture, attach to chat messages, and capture required documents such as vehicle inspection photos and shipment paperwork.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Use Face ID to unlock the app and sign in without re-entering your password.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>TS Admins needs access to location when open and in the background to track your shipments.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>TS Admins needs access to location when in the background to track your shipments.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>TS Admins needs access to location when open to track your shipments.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Record voice messages to send in chat and capture audio during video recording.</string>
+	<key>NSPasteboardUsageDescription</key>
+	<string>Access to the clipboard is required to retrieve images that have been copied or captured as screenshots.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Select photos and videos from your library to attach to chat messages, set your profile picture, and upload required documents such as inspection reports and shipment paperwork.</string>
+	<key>NSPictureInPictureUsageDescription</key>
+	<string>We allow you to continue watching video in a small window while using other apps.</string>
+	<key>NSVoIPUsageDescription</key>
+	<string>We need VoIP capabilities for incoming calls.</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>location</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+		<string>voip</string>
+		<string>audio</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

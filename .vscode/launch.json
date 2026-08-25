@@ -1,0 +1,105 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ts_admin",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "ts_admin (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "ts_admin (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "easy_stepper_local",
+            "cwd": "easy_stepper_local",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "easy_stepper_local (profile mode)",
+            "cwd": "easy_stepper_local",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "easy_stepper_local (release mode)",
+            "cwd": "easy_stepper_local",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "flutter_callkit_incoming",
+            "cwd": "flutter_callkit_incoming",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_callkit_incoming (profile mode)",
+            "cwd": "flutter_callkit_incoming",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutter_callkit_incoming (release mode)",
+            "cwd": "flutter_callkit_incoming",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "pro_image_editor",
+            "cwd": "pro_image_editor",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "pro_image_editor (profile mode)",
+            "cwd": "pro_image_editor",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "pro_image_editor (release mode)",
+            "cwd": "pro_image_editor",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "scroll_navigation",
+            "cwd": "scroll_navigation",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "scroll_navigation (profile mode)",
+            "cwd": "scroll_navigation",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "scroll_navigation (release mode)",
+            "cwd": "scroll_navigation",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
